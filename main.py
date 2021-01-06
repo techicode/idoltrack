@@ -34,7 +34,7 @@ try:
             with open(filename, 'a') as file_object:
                 file_object.write(str(res[0])+"\n")
 
-        time.sleep(30)
+        time.sleep(3600)
 except Exception as e:
     print("type error: " + str(e))
 
